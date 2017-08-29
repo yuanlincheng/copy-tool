@@ -14,7 +14,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.encoding>UTF-8</maven.compiler.encoding>
         <jdk.version>1.8</jdk.version>
-        <exec.mainClass>com.ylc.main.DecryptMain</exec.mainClass>
+        <exec.mainClass>com.ylc.main.CopyMain</exec.mainClass>
     </properties>
     <dependencies>
         <!--导入公用的junit测试工具包-->

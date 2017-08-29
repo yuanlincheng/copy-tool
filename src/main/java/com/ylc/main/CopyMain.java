@@ -32,7 +32,7 @@ public class CopyMain {
         rootPane.add(copyLable);
 
         JTextField copySrc = new JTextField();
-        copySrc.setText("C:\\copy");
+        copySrc.setText("Z:\\share");
         copySrc.setBounds(120, 20, 450, 25);
         rootPane.add(copySrc);
 
@@ -42,7 +42,7 @@ public class CopyMain {
         rootPane.add(changeLable);
 
         JTextField changeSrc = new JTextField();
-        changeSrc.setText("C:\\change");
+        changeSrc.setText("E:\\share");
         changeSrc.setBounds(120, 60, 450, 25);
         rootPane.add(changeSrc);
 
@@ -130,7 +130,7 @@ public class CopyMain {
     }
 
     public static boolean isFieTypeHave(String fileName){
-        if(fileName.endsWith("java") || fileName.endsWith("pom") || fileName.endsWith("xml") || fileName.endsWith("txt")){
+        if(fileName.endsWith("java") || fileName.endsWith("pom") || fileName.endsWith("xml") || fileName.endsWith("txt") || fileName.endsWith("properties") || fileName.endsWith("jsp")){
             return true;
         }else {
             return false;
@@ -138,7 +138,7 @@ public class CopyMain {
     }
 
     public static boolean isFieTypeEndHave(String fileName){
-        if(fileName.endsWith("java1") || fileName.endsWith("pom1") || fileName.endsWith("xml1") || fileName.endsWith("txt1")){
+        if(fileName.endsWith("java1") || fileName.endsWith("pom1") || fileName.endsWith("xml1") || fileName.endsWith("txt1") || fileName.endsWith("properties1") || fileName.endsWith("jsp1")){
             return true;
         }else {
             return false;
